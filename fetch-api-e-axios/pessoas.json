@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Douglas",
+    "age": 21,
+    "country": "Brasil",
+    "State": "Paraná",
+    "gender": "male"
+  },
+  {
+    "name": "Lorena",
+    "age": 20,
+    "country": "Brasil",
+    "State": "Paraná",
+    "gender": "female"
+  }
+]
