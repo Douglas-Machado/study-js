@@ -5,7 +5,7 @@ function Product(name, price){
 
 //prototypes of product constructor
 Product.prototype.increase = function(amount){
-  this.price += amount
+  console.log(this.price += amount)
 }
 Product.prototype.discount = function(amount){
   this.price -= amount
@@ -45,9 +45,9 @@ Cup.prototype.departure = function(amount){
 const product = new Product('Generic', 5)
 const shirt = new Shirt('Polo', 13, 'red')
 const cup = new Cup('Spider-man cup', 44, 'porcelain', 200)
-cup.inventory = 50
-console.log(cup)
-console.log(product)
-console.log(shirt)
-console.log(cup.inventory)
+// cup.inventory = 50
+// console.log(cup)
+product.increase(10)
+// console.log(shirt)
+// console.log(cup.inventory)
 
